@@ -1,0 +1,44 @@
+{
+  "id": "2820123",
+  "name": "gezi-vue",
+  "font_family": "gezi",
+  "css_prefix_text": "icon-",
+  "description": "私人vue案例项目",
+  "glyphs": [
+    {
+      "icon_id": "13604671",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "18863162",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "24333890",
+      "name": "常用_成功 副本",
+      "font_class": "a-changyong_chenggongfuben",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "24333893",
+      "name": "常用_错误 副本",
+      "font_class": "a-changyong_cuowufuben",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "24333916",
+      "name": "常用_提示 副本",
+      "font_class": "a-changyong_tishifuben",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    }
+  ]
+}

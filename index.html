@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+         <!-- 阿里云视频/直播 -->
+        <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css"/>
+        <script type="text/javascript" charset="utf-8"
+                src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+        <title>vue-worker</title>
+    </head>
+    <body>
+        <div id="app">
+            <!-- tinymce 富文本编辑 -->
+            <link
+                rel="stylesheet"
+                href="static/tinymce/skins/ui/oxide/skin.css"
+            />
+            <link
+                rel="stylesheet"
+                href="static/tinymce/skins/ui/oxide/content.css"
+            />
+            <link
+                rel="stylesheet"
+                href="static/tinymce/skins/content/default/content.css"
+            />
+            <!-- end -->
+
+            <!-- tinymce 富文本编辑 -->
+            <source class="tinymce" src="static/tinymce/" />
+            <script
+                type="text/javascript"
+                src="static/tinymce/tinymce.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/lang/zh_CN.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/themes/silver/theme.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/icons/default/icons.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/code/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/fullscreen/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/image/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/link/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/lists/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/table/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/wordcount/plugin.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/imageUpload/plugin1.js"
+            ></script>
+            <script
+                type="text/javascript"
+                src="static/tinymce/plugins/lineheight/plugin.min.js"
+            ></script>
+            <!-- end -->
+            <script type="text/javascript">
+                tinymce.init({
+                    // language: "zh_CN",
+                    // language_url: document.querySelector("source.tinymce").src + "/langs/zh_CN.js",
+
+                    skin_url:
+                        document.querySelector("source.tinymce").src +
+                        "/skins/oxide"
+                });
+            </script>
+        </div>
+        <!-- built files will be auto injected -->
+    </body>
+</html>

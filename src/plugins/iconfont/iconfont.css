@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "gezi"; /* Project id 2820123 */
+  src: url('iconfont.eot?t=1631863712397'); /* IE9 */
+  src: url('iconfont.eot?t=1631863712397#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARAAAsAAAAACWwAAAPzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDQAqFWIR7ATYCJAMYCw4ABCAFhDcHgQcbPgjIHpIkiBQHFOBICgoAIR6+34927rNVa6pANIuaKGmHZFpJUIleiZQi3qB6Jv/58vKnkOf7VNjJFsxmZ7LZtolrXj+EW8l35+kDaoAAM9H/c6l607NA1rcTjMLcw3IUzQsmBLtz0JhWwVakYt7lcIZXx3ME+u2XxPhMVgEB7PcohQPeTOnzQdQYeyxDAUvOqlQwQ6+hNb2wiMfMSA/TW8Aj7/fjn7AsSWqm3+biMnVg9UP6h+X8oHsAQP7OmRNgf0JFxvbC7HGl2nuZSZDdZqK/KG3qFKCkeyVp0O6qD/M/l7sOIOaUW9P2G9rBCf7lhayoRKNrB4E8m6v8TLcoEj+rKIKfcxSZn/MUhZ/LVhWMbcDeEXwFII5o0uv04hLXZkWZsjpqazTlbFrs7KzQ7QNiz2DskfuM/YpDxqHm4BuJqQf99ycfDjwiK+8t+Jw7d+aMq+f5xc2TZy961NyedT19+uxZD59LKzsnzlzo0qEErEticDJiGNv+IbApbEAzOexGNOmuOTvwaMqNrDg35HJX4rTcBBFxnEZn+u/bTmz1YJoKo+NSkw+NMuMBMEYIq1HEEPD4U+mhqr8cIPqXlZJk0pcA2V8sLSPJL0lZDpH0tZogPzc6ZPgbTytdqyo+anp9QtRGmVR0j3Hbu58Tq0qOmj2bkOSTctv0288g/JNWOk1n39v/vrn2BBRL07Eo/ieOp2Nj6Xj0Kx4jGEcnJ6AhYH+DZce9jbzHifKlJf+nnbwmdnfPs7o/216T/ldvm3JO2XUcgeNeTl7jbtjbKdiuFzVMMRy92xdMAFNZuYBRKJl5Zedkl2hpvR2z7dkE7i+G24FuAN0zk0+5FADyIeN5JbuTn+WDHrmBLv+FEYJXb+q6GhwS/lvaFPCD/QdRtHtmaphcr0Rj6W+kq21IW5QYrRRNtnoEmhOxqMT/MsOfExz3Yij9RGMmoZ+IIOkxA1kxixZyEaoBq9AUB6DflsjLB0xoZCJKH1bJCEKvJ5AMewpZr9doId9ANW0Fml7foN8lz8ULuUHh6RKiFKSD2g7I0jyHza0KgzrZMsSozZQUSqxtGiTJLM/B0KCQeCEbcUhqc4rcyoQpCoZY4ltgVtfHoeZmHgoSb0C0EqRXFCEuOBgXfUkQzbeAdBKEokB0IK0OEIvG42CnXMFAOuXjyyAMVTOKhBQeqhGBWg4kHZqhUEFCKtBsLVc5caLTZa0YYRQKDMJKPa8FlDW1G2k2sjxIKN5lgNAUQfQd0oI4wZgON9UGbUHfcitXoJ/+Pi1S5ChRo0WPeoWV9aw5o1KclvWmAmk9xTEdvBVqoPXIUTMBA6vaaff8JSrfpuZJ+5GCBQA=') format('woff2'),
+       url('iconfont.woff?t=1631863712397') format('woff'),
+       url('iconfont.ttf?t=1631863712397') format('truetype'),
+       url('iconfont.svg?t=1631863712397#gezi') format('svg');
+}
+
+.gezi {
+  font-family: "gezi" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tishi:before {
+  content: "\e659";
+}
+
+.icon-guanbi:before {
+  content: "\e643";
+}
+
+.icon-a-changyong_chenggongfuben:before {
+  content: "\e6b9";
+}
+
+.icon-a-changyong_cuowufuben:before {
+  content: "\e6ba";
+}
+
+.icon-a-changyong_tishifuben:before {
+  content: "\e6be";
+}
+

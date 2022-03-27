@@ -1,0 +1,17 @@
+.content {
+    padding: 20px;
+}
+.title {
+    margin: 20px 0;
+}
+
+.go-back {
+    margin: 20px;
+}
+
+.cropper-circle {
+    .cropper-view-box,
+    .cropper-face {
+        border-radius: 100%;
+    }
+}

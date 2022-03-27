@@ -1,0 +1,31 @@
+.tox .tox-toolbar {
+	background: none;
+	background-color: white;
+	// border-bottom: solid 1px #dddddd;
+}
+.tox .tox-tbtn {
+	width: 25px;
+	height: 25px;
+}
+.tox .tox-tbtn svg {
+	fill: #666666;
+	transform: scale(0.8);
+}
+.tox .tox-menu {
+	transform: scale(0.8);
+	transform-origin: top left;
+}
+.tox:not([dir="rtl"]) .tox-toolbar__group:not(:last-of-type) {
+	border-right-color: #dddddd;
+}
+.tox .tox-form__group--stretched .tox-textarea {
+	font-family: Consolas, serif;
+}
+.tox .tox-tbtn--select {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	.tox-tbtn__select-chevron{
+		display: none;
+	}
+}
