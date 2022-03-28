@@ -72,7 +72,9 @@
                         actionUrl:"upload/files", // 上传地址
                         headersUpload:{}, // 信息头部
                         autoUpload:false, // 是否自动上传
-                        accept:".jpeg,.jpg,.png"
+                        accept:".jpeg,.jpg,.png",
+						size:200,
+						sizeUnit:'k'
                     }
                 }
             },
@@ -278,10 +280,13 @@
 			},
 			// 上传之前的验证
 			beforeUpload (files) {
-				let max_size = 200 * 1024;
+				let max_size = this.actionOptions.size;
+				if(this.actionOptions.sizeUnit === 'k' || this.actionOptions.sizeUnit === 'kB'){
+					max_size = this.actionOptions.size * 1024;
+				}
 				try {
 					if(files.size > max_size){
-						this.$alert(`图片大小不能超过200k`,{
+						this.$alert(`图片大小不能超过${this.actionOptions.size}${this.actionOptions.sizeUnit}`,{
 							confirmButtonText: '确定',
 							type:'error'
 						});
