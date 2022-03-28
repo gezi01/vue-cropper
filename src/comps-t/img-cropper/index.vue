@@ -296,7 +296,7 @@
             // 请求接口
             uploadFileRaw(files){
                 this.$emit('submit',files);
-                this.dialogVisible = false;
+                this.handleClose();
             }
 		}
 	};
