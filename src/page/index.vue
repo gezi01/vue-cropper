@@ -7,6 +7,9 @@
 				<div class="item">
 					<el-button type="primary" @click="handleClick()">裁剪图片</el-button>
 				</div>
+                <div class="item">
+					<el-button type="primary" @click="handleClick('calendar')">日历</el-button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -18,9 +21,16 @@
 			return {};
 		},
 		methods: {
-			handleClick() {
-                this.$router.push({ path: "/Cropper" });
-			}
+			handleClick(type) {
+                switch(type){
+                    case 'crop':
+                    this.$router.push({ path: "/Cropper" });
+                    break;
+                    case 'calendar':
+                    this.$router.push({ path: "/Calendar" });
+                }
+
+			},
 		}
 	};
 </script>
